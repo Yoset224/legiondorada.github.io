@@ -37,6 +37,13 @@
         main {
             padding: 20px;
         }
+        .section {
+            margin: 20px 0;
+        }
+        .section p {
+            display: inline-block;
+            margin-right: 10px;
+        }
         button {
             padding: 10px 20px;
             background-color: #e74c3c;
@@ -45,7 +52,6 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
-            margin: 10px;
         }
         button:hover {
             background-color: #c0392b;
@@ -58,21 +64,45 @@
         <p>¡Bienvenido a la página principal de El Lobby!</p>
     </header>
     <main>
-        <h2>Accede a nuestro servidor</h2>
+        <h2>Accede a nuestros servidores</h2>
         <p>¡Aquí puedes encontrar toda la información para unirte a nuestra comunidad!</p>
-        <button onclick="window.location.href='pages/servidor.html'">Ir al servidor</button>
+        
+        <!-- Descripción de la página -->
+        <p>Esta página está dedicada a los miembros de la comunidad de Minecraft, proporcionándoles toda la información que necesitan para disfrutar de nuestro servidor en el apocalipsis zombi.</p>
+        
+        <!-- Secciones con botones -->
+        <div class="section">
+            <p>Server DeadRisingZ:</p>
+            <button onclick="window.location.href='pages/deadrisingz.html'">Ir al servidor</button>
+        </div>
+        <div class="section">
+            <p>Server UnBloque:</p>
+            <button onclick="window.location.href='pages/unbloque.html'">Ir al servidor</button>
+        </div>
+        <div class="section">
+            <p>Server Apocalipsis:</p>
+            <button onclick="window.location.href='pages/apocalipsis.html'">Ir al servidor</button>
+        </div>
+        <div class="section">
+            <p>Server SurvivalLand:</p>
+            <button onclick="window.location.href='pages/survivalland.html'">Ir al servidor</button>
+        </div>
+        <div class="section">
+            <p>Server CraftCity:</p>
+            <button onclick="window.location.href='pages/craftcity.html'">Ir al servidor</button>
+        </div>
     </main>
     <footer>
         <p>
-    Esta página web, <strong>ELLOBBY</strong>, está protegida por derechos de autor © 2025 Yoset224. 
-    Está licenciada bajo una 
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">
-        Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional
-    </a>. 
-    <br>
-    Consulta el repositorio en 
-    <a href="https://github.com/Yoset224/legiondorada.github.io" target="_blank" rel="noopener">GitHub</a>.
-</p>
+            Esta página web, <strong>ELLOBBY</strong>, está protegida por derechos de autor © 2025 Yoset224. 
+            Está licenciada bajo una 
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">
+                Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional
+            </a>. 
+            <br>
+            Consulta el repositorio en 
+            <a href="https://github.com/Yoset224/legiondorada.github.io" target="_blank" rel="noopener">GitHub</a>.
+        </p>
     </footer>
 </body>
 </html>
