@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legión Dorada - Servidor Bedrock</title>
+    <title>Bienvenido a Legión Dorada</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,14 +24,6 @@
         main {
             padding: 20px;
         }
-        .server-info {
-            margin: 20px 0;
-            padding: 20px;
-            background: #34495e;
-            border-radius: 10px;
-            display: inline-block;
-            text-align: left;
-        }
         button {
             padding: 10px 20px;
             background-color: #e74c3c;
@@ -40,60 +32,25 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
-            margin: 5px;
+            margin: 10px;
         }
         button:hover {
             background-color: #c0392b;
-        }
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #2c3e50;
-        }
-        a {
-            color: #1abc9c;
-            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Legión Dorada</h1>
-        <p>¡Un apocalipsis zombi te espera en Dead Rising LGD!</p>
+        <p>¡Bienvenido a la página principal de Legión Dorada!</p>
     </header>
     <main>
-        <h2>Conéctate a nuestro servidor Bedrock</h2>
-        <div class="server-info">
-            <p><strong>IP:</strong> legiondorada.mysrv.us</p>
-            <p><strong>Puerto:</strong> 25549</p>
-            <button onclick="copiarIP()">Copiar IP</button>
-            <button onclick="redireccionar()">Agregar Servidor</button>
-        </div>
-        <h3>¿Cómo conectarte?</h3>
-        <p>
-            1. Abre Minecraft Bedrock.<br>
-            2. Ve a <strong>Jugar</strong> &gt; <strong>Servidores</strong> &gt; <strong>Agregar Servidor</strong>.<br>
-            3. Ingresa la IP y el puerto indicados arriba.<br>
-            4. ¡Únete y disfruta la experiencia!
-        </p>
+        <h2>Accede a nuestro servidor</h2>
+        <p>¡Aquí puedes encontrar toda la información para unirte a nuestra comunidad!</p>
+        <button onclick="window.location.href='pages/servidor.html'">Ir al servidor</button>
     </main>
     <footer>
-        <p>© 2025 Legión Dorada | <a href="mailto:contacto@legiondorada.com">Contacto</a></p>
+        <p>© 2025 Legión Dorada</p>
     </footer>
-    <script>
-        function copiarIP() {
-            const ip = "legiondorada.mysrv.us:25549";
-            navigator.clipboard.writeText(ip).then(() => {
-                alert("¡IP copiada al portapapeles!");
-            }).catch(err => {
-                alert("No se pudo copiar la IP. Por favor, cópiala manualmente.");
-            });
-        }
-
-        function redireccionar() {
-            const url = "minecraft://?addExternalServer=Dead Rising LGD|legiondorada.mysrv.us|25549";
-            window.location.href = url;
-        }
-    </script>
 </body>
 </html>
