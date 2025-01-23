@@ -1,35 +1,63 @@
-# Legión Dorada - Servidor Minecraft Bedrock
+# Legión Dorada - ELLOBBY
 
-Bienvenido al repositorio de **Legión Dorada**, un servidor de Minecraft Bedrock ambientado en un apocalipsis zombi. ¡Únete a la aventura y sobrevive en este mundo lleno de desafíos y emoción!
+¡Bienvenido a la página oficial de Legión Dorada! Aquí encontrarás información sobre nuestro servidor de Minecraft, eventos y comunidades. Nuestro objetivo es brindar la mejor experiencia de juego, con mundos únicos como **Dead Rising Z**, **Un Bloque** y **Apocalipsis**. 
 
-## Información del servidor
+## 🌟 ¿Qué es Legión Dorada?
+Legión Dorada es una comunidad de Minecraft diseñada tanto para jugadores de **Java** como de **Bedrock Edition**. Ofrecemos servidores personalizados con temáticas únicas y una jugabilidad optimizada, asegurando una experiencia inmersiva para todos nuestros usuarios.
 
-- **IP:** `legiondorada.mysrv.us`
+### 📌 Servidores disponibles:
+1. **Dead Rising Z:** Vive la experiencia zombi definitiva.
+2. **Un Bloque:** Descubre un mundo desde un solo bloque.
+3. **Apocalipsis:** Sobrevive en un mundo devastado por desastres naturales.
+
+Accede a la página web oficial aquí:  
+[Legión Dorada - ELLOBBY](https://yoset224.github.io/legiondorada.github.io/)
+
+## 🚀 Cómo unirte
+Para conectarte a nuestros servidores, sigue las instrucciones detalladas en la sección correspondiente de nuestra página web.  
+Incluimos información de IP, puertos y guías rápidas para usuarios de **Java** y **Bedrock Edition**.
+
+### Servidor Bedrock
+- **IP:** `legiondorada.mysrv.us`  
 - **Puerto:** `25549`
-- **Versión:** Minecraft Bedrock Edition
 
-### ¿Cómo conectarte?
+### Servidor Java
+- Información disponible próximamente.
 
-1. Abre Minecraft Bedrock.
-2. Ve a **Jugar** > **Servidores** > **Agregar Servidor**.
-3. Ingresa la IP y el puerto indicados arriba.
-4. ¡Únete y disfruta de la experiencia!
+## 🛠 Tecnologías utilizadas
+Este proyecto utiliza las siguientes herramientas y tecnologías:
+- **HTML5** y **CSS3** para el diseño de la página.
+- **JavaScript** para funcionalidades interactivas.
+- **Creative Commons License** para la protección del contenido.
+- Repositorio alojado en **GitHub Pages**.
 
-## Recursos adicionales
+## 📜 Licencia
+Esta página web, **ELLOBBY**, está protegida por derechos de autor © 2025 Yoset224.  
+Está licenciada bajo una [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/).  
+Consulta más información en el archivo [LICENSE](./LICENSE).
 
-- [Grupo de WhatsApp](https://chat.whatsapp.com/CVtLta5qw1dGwC4KhbQNCR) - Únete a nuestro grupo oficial para charlar con otros jugadores.
-- [Canal de Anécdotas en WhatsApp](https://whatsapp.com/channel/0029Valb0KIKAwEkpXMXuI1b) - Comparte y lee las mejores anécdotas de los jugadores.
-- [Canal de Anuncios en WhatsApp](https://whatsapp.com/channel/0029Vay9rZN0gcfIcUEM3n2s) - Mantente al tanto de todas las novedades y anuncios importantes.
-- [Únete a nuestro Discord](https://discord.gg/tu-enlace-de-discord) - Únete al servidor de Discord para más interacción.
+## 📣 Enlaces importantes
+- **Página oficial:** [Legión Dorada - ELLOBBY](https://yoset224.github.io/legiondorada.github.io/)
+- **Repositorio GitHub:** [legiondorada.github.io](https://github.com/Yoset224/legiondorada.github.io)
+- **Comunidad WhatsApp:** 
+  - [Grupo del servidor](https://chat.whatsapp.com/CVtLta5qw1dGwC4KhbQNCR)
+  - [Canal de Anécdotas](https://whatsapp.com/channel/0029Valb0KIKAwEkpXMXuI1b)
+  - [Canal de Anuncios](https://whatsapp.com/channel/0029Vay9rZN0gcfIcUEM3n2s)
+- **Servidor Discord:** [Únete aquí](https://discord.gg/X99d9C4U4D)
 
-## Contribuciones
+## 👥 Contribución
+Si deseas colaborar con este proyecto, sigue estos pasos:
+1. Haz un fork del repositorio.
+2. Crea una rama nueva (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz un commit (`git commit -m "Añadida nueva funcionalidad"`).
+4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
+5. Abre un pull request.
 
-Si tienes alguna idea para mejorar el servidor o la página web, no dudes en hacer un **fork** de este repositorio, hacer tus cambios y enviar un **pull request**. ¡Estamos abiertos a sugerencias y mejoras!
-
-## Licencia
-
-Este proyecto está bajo la licencia **MIT**. Consulta el archivo LICENSE para más detalles.
+## 📧 Contacto
+Para consultas o sugerencias, puedes contactarnos en:  
+- **Correo:** [yosetmamani1234@gmail.com](mailto:yosetmamani1234@gmail.com)  
+- **WhatsApp:** [Escríbenos aquí](https://wa.me/51913231572)  
 
 ---
 
-**Legión Dorada** © 2025 | Creado y mantenido por la comunidad.
+¡Gracias por ser parte de nuestra comunidad!
