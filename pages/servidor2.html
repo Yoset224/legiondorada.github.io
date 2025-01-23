@@ -18,6 +18,7 @@
         </div>
         <div>
             <button onclick="copiarLink()">Copiar Link</button>
+            <button onclick="redireccionar()">Agregar a Minecraft</button>
         </div>
         <h3>¿Cómo conectarte?</h3>
         <p>1. Abre Minecraft.<br>2. Ve a <strong>Jugar > Amigos > Unirse a Realm</strong>.<br>3. Ingresa el link del Realm.<br>4. ¡Únete y disfruta!</p>
@@ -40,6 +41,10 @@
             navigator.clipboard.writeText(link).catch(err => {
                 alert("No se pudo copiar el link.");
             });
+        }
+        function redireccionar() {
+            const url = "minecraft://acceptRealmInvite?inviteID=q6mP7S8uC5Nxfzo";
+            window.location.href = url;
         }
     </script>
 </body>
