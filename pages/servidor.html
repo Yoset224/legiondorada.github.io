@@ -28,9 +28,7 @@
     <script>
         function copiarIP() {
             const ip = "legiondorada.mysrv.us:25549";
-            navigator.clipboard.writeText(ip).then(() => {
-                alert("¡IP copiada al portapapeles!");
-            }).catch(err => {
+            navigator.clipboard.writeText(ip).catch(err => {
                 alert("No se pudo copiar la IP.");
             });
         }
