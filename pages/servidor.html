@@ -16,6 +16,8 @@
         <div class="server-info section">
             <p><strong>IP:</strong> legiondorada.mysrv.us</p>
             <p><strong>Puerto:</strong> 25549</p>
+        </div>
+        <div>
             <button onclick="copiarIP()">Copiar IP</button>
             <button onclick="redireccionar()">Agregar Servidor</button>
         </div>
@@ -23,7 +25,16 @@
         <p>1. Abre Minecraft.<br>2. Ve a <strong>Jugar > Servidores > Agregar Servidor</strong>.<br>3. Ingresa la IP y el puerto.<br>4. ¡Únete y disfruta!</p>
     </main>
     <footer>
-        <p>© 2025 Legión Dorada</p>
+        <p>
+    Esta página web, <strong>ELLOBBY</strong>, está protegida por derechos de autor © 2025 Yoset224. 
+    Está licenciada bajo una 
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">
+        Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional
+    </a>. 
+    <br>
+    Consulta el repositorio en 
+    <a href="https://github.com/Yoset224/legiondorada.github.io" target="_blank" rel="noopener">GitHub</a>.
+        </p>
     </footer>
     <script>
         function copiarIP() {
@@ -33,7 +44,7 @@
             });
         }
         function redireccionar() {
-            const url = "minecraft://?addExternalServer=Dead Rising Z|legiondorada.mysrv.us|25549";
+            const url = "minecraft://?addExternalServer=DeadRisingZ|legiondorada.mysrv.us:25549";
             window.location.href = url;
         }
     </script>
