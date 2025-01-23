@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Bloque</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Un Bloque</h1>
+        <p>¡Vive la experiencia de un solo Bloque aquí!</p>
+    </header>
+    <main>
+        <h2>Conéctate al Realm</h2>
+        <div class="server-info section">
+            <p><strong>Link del Realm:</strong> <a href="https://realms.gg/q6mP7S8uC5Nxfzo" target="_blank" rel="noopener">https://realms.gg/q6mP7S8uC5Nxfzo</a></p>
+        </div>
+        <div>
+            <button onclick="copiarLink()">Copiar Link</button>
+        </div>
+        <h3>¿Cómo conectarte?</h3>
+        <p>1. Abre Minecraft.<br>2. Ve a <strong>Jugar > Amigos > Unirse a Realm</strong>.<br>3. Ingresa el link del Realm.<br>4. ¡Únete y disfruta!</p>
+    </main>
+    <footer>
+        <p>
+            Esta página web, <strong>ELLOBBY</strong>, está protegida por derechos de autor © 2025 Yoset224.
+            Está licenciada bajo una 
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">
+                Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional
+            </a>. 
+            <br>
+            Consulta el repositorio en 
+            <a href="https://github.com/Yoset224/legiondorada.github.io" target="_blank" rel="noopener">GitHub</a>.
+        </p>
+    </footer>
+    <script>
+        function copiarLink() {
+            const link = "https://realms.gg/q6mP7S8uC5Nxfzo";
+            navigator.clipboard.writeText(link).catch(err => {
+                alert("No se pudo copiar el link.");
+            });
+        }
+    </script>
+</body>
+</html>
