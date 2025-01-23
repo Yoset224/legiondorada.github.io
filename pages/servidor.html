@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legión Dorada - Servidor Bedrock</title>
+    <title>Dead Rising Z</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Legión Dorada</h1>
-        <p>¡Un apocalipsis zombi te espera en Dead Rising LGD!</p>
+        <h1>Dead Rising Z</h1>
+        <p>¡Vive la experiencia zombi definitiva en Legión Dorada!</p>
     </header>
     <main>
-        <h2>Detalles del servidor</h2>
+        <h2>Conéctate al servidor</h2>
         <div class="server-info">
             <p><strong>IP:</strong> legiondorada.mysrv.us</p>
             <p><strong>Puerto:</strong> 25549</p>
@@ -20,32 +20,22 @@
             <button onclick="redireccionar()">Agregar Servidor</button>
         </div>
         <h3>¿Cómo conectarte?</h3>
-        <p>
-            1. Abre Minecraft Bedrock.<br>
-            2. Ve a <strong>Jugar</strong> &gt; <strong>Servidores</strong> &gt; <strong>Agregar Servidor</strong>.<br>
-            3. Ingresa la IP y el puerto indicados.<br>
-            4. ¡Únete y disfruta!
-        </p>
-        <img src="../images/server.png" alt="Instrucciones para agregar servidor">
+        <p>1. Abre Minecraft.<br>2. Ve a <strong>Jugar > Servidores > Agregar Servidor</strong>.<br>3. Ingresa la IP y el puerto.<br>4. ¡Únete y disfruta!</p>
     </main>
     <footer>
-        <p>© 2025 Legión Dorada | 
-            <a href="mailto:yosetmamani1234@gmail.com">Correo</a> | 
-            <a href="https://wa.me/51913231572" target="_blank">WhatsApp</a>
-        </p>
+        <p>© 2025 Legión Dorada</p>
     </footer>
     <script>
         function copiarIP() {
             const ip = "legiondorada.mysrv.us:25549";
             navigator.clipboard.writeText(ip).then(() => {
                 alert("¡IP copiada al portapapeles!");
-            }).catch(() => {
+            }).catch(err => {
                 alert("No se pudo copiar la IP.");
             });
         }
-
         function redireccionar() {
-            const url = "minecraft://?addExternalServer=Dead Rising LGD|legiondorada.mysrv.us|25549";
+            const url = "minecraft://?addExternalServer=Dead Rising Z|legiondorada.mysrv.us|25549";
             window.location.href = url;
         }
     </script>
