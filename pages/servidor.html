@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dead Rising Z</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        .whatsapp-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #1b2a49;
+            border-radius: 10px;
+        }
+
+        .whatsapp-section img {
+            max-width: 100px;
+            max-height: 100px;
+            border-radius: 10px;
+        }
+
+        .whatsapp-section .description {
+            flex-grow: 1;
+            text-align: left;
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .whatsapp-section button {
+            flex-shrink: 0;
+            padding: 10px 20px;
+            background-color: #0f1c33;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .whatsapp-section button:hover {
+            background-color: #000000;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -53,75 +93,13 @@
         <p>📥 Discord: (agrega enlace a tu Discord si tienes uno)</p>
         <p>🔔 ¡Forma parte de esta experiencia única y ayuda a perfeccionar el servidor durante la fase beta! Comparte esta publicación, invita a tus amigos y prepárate para enfrentar el apocalipsis como nunca antes.</p>
         <p>🧟‍♂️ ¡El reto está servido! Aquí, cada día cuenta. 🧟‍♀️</p>
-        <p>Únete a nuestro grupo de WhatsApp: <a href="https://chat.whatsapp.com/JP5WwOUPWWj2aIQcA3zoH0" target="_blank">https://chat.whatsapp.com/JP5WwOUPWWj2aIQcA3zoH0</a></p>
-    </main>
-    <footer>
-        <p>
-    Esta página web, <strong>ELLOBBY</strong>, está protegida por derechos de autor © 2025 Yoset224. 
-    Está licenciada bajo una 
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">
-        Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional
-    </a>. 
-    <br>
-    Consulta el repositorio en 
-    <a href="https://github.com/Yoset224/legiondorada.github.io" target="_blank" rel="noopener">GitHub</a>.
-        </p>
-    </footer>
-    <script>
-        function copiarIP() {
-            const ip = "legiondorada.mysrv.us:25549";
-            navigator.clipboard.writeText(ip).catch(err => {
-                alert("No se pudo copiar la IP.");
-            });
-        }
-        function redireccionar() {
-            const url = "minecraft://?addExternalServer=DeadRisingZ|legiondorada.mysrv.us:25549";
-            window.location.href = url;
-        }
-    </script>
-</body>
-</html>
-Public code references from 2 repositories
-¿Te gustaría que suba estos cambios al repositorio?
-
-Code
-Issues
-Pull requests
-legiondorada.github.io/pages
-/servidor.html
-Yoset224
-Yoset224
-3 days ago
-52 lines (52 loc) · 1.9 KB
-
-Code
-
-Blame
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dead Rising Z</title>
-    <link rel="stylesheet" href="../css/styles.css">
-</head>
-<body>
-    <header>
-        <h1>Dead Rising Z</h1>
-        <p>¡Vive la experiencia zombi definitiva en Legión Dorada!</p>
-    </header>
-    <main>
-        <h2>Conéctate al servidor</h2>
-        <div class="server-info section">
-            <p><strong>IP:</strong> legiondorada.mysrv.us</p>
-            <p><strong>Puerto:</strong> 25549</p>
+        <div class="whatsapp-section">
+            <img src="../images/server.png" alt="Grupo de WhatsApp">
+            <div class="description">
+                <p>Únete a nuestro grupo de WhatsApp:</p>
+                <button onclick="window.open('https://chat.whatsapp.com/JP5WwOUPWWj2aIQcA3zoH0', '_blank')">Unirse al Grupo</button>
+            </div>
         </div>
-        <div>
-            <button onclick="copiarIP()">Copiar IP</button>
-            <button onclick="redireccionar()">Agregar Servidor</button>
-        </div>
-        <h3>¿Cómo conectarte?</h3>
-        <p>1. Abre Minecraft.<br>2. Ve a <strong>Jugar > Servidores > Agregar Servidor</strong>.<br>3. Ingresa la IP y el puerto.<br>4. ¡Únete y disfruta!</p>
     </main>
     <footer>
         <p>
