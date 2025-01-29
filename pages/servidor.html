@@ -54,8 +54,8 @@
     <main>
         <h2>Conéctate al servidor</h2>
         <div class="server-info section">
-            <p><strong>IP:</strong> legiondorada.mysrv.us</p>
-            <p><strong>Puerto:</strong> 25549</p>
+            <p><strong>IP:</strong> 216.238.71.9:9047</p>
+            <p><strong>Puerto:</strong> 9047</p>
         </div>
         <div>
             <button onclick="copiarIP()">Copiar IP</button>
@@ -117,13 +117,13 @@
     </footer>
     <script>
         function copiarIP() {
-            const ip = "legiondorada.mysrv.us:25549";
+            const ip = "216.238.71.9:25015";
             navigator.clipboard.writeText(ip).catch(err => {
                 alert("No se pudo copiar la IP.");
             });
         }
         function redireccionar() {
-            const url = "minecraft://?addExternalServer=DeadRisingZ|216.238.71.9:25015";
+            const url = "minecraft://?addExternalServer=DeadRisingZ|216.238.71.9:9047";
             window.location.href = url;
         }
     </script>
